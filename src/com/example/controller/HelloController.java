@@ -11,6 +11,9 @@ public class HelloController {
     @GetMapping("/")
     public String index(Model m) {
         m.addAttribute("message", "Hello Vitaliy!");
+//        m.addAttribute("message", "Hello Vitaliy!");
+//        return "myIndexJSP";
+//        return "myIndexJSP";
         return "myIndexJSP";
     }
 }
